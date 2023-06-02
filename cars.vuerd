@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -205,
-    "scrollLeft": -230,
-    "zoomLevel": 0.8,
+    "scrollTop": -18,
+    "scrollLeft": -61,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -194,6 +194,29 @@
         "comment": "",
         "columns": [
           {
+            "name": "CAR_OPTION",
+            "comment": "옵션",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 86.5126953125,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "761d6eac-5c84-4409-94ac-e8d832e7b3d5"
+          },
+          {
             "name": "UNIQUE_ID",
             "comment": "유니크 ID",
             "dataType": "VARCHAR",
@@ -215,36 +238,13 @@
               "widthDefault": 60
             },
             "id": "f9be0175-b4c7-4c91-8469-f6d4dd89ce6c"
-          },
-          {
-            "name": "CAR_OPTION",
-            "comment": "옵션",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 86.5126953125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "761d6eac-5c84-4409-94ac-e8d832e7b3d5"
           }
         ],
         "ui": {
           "active": false,
           "left": 597.5,
           "top": 337.25,
-          "zIndex": 34,
+          "zIndex": 40,
           "widthName": 60,
           "widthComment": 60
         },
