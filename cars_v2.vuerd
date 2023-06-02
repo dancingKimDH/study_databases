@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -478,
-    "scrollLeft": -706,
+    "scrollTop": -509,
+    "scrollLeft": -1015,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -341,29 +341,6 @@
         "comment": "",
         "columns": [
           {
-            "name": "",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "1558278b-70dc-458b-b541-97232b560018"
-          },
-          {
             "name": "CAR_ID",
             "comment": "",
             "dataType": "VARCHAR",
@@ -414,7 +391,7 @@
           "active": false,
           "left": 1100.778,
           "top": 942.5557,
-          "zIndex": 82,
+          "zIndex": 84,
           "widthName": 132.7490234375,
           "widthComment": 60
         },
@@ -500,7 +477,7 @@
             "8565e914-ff1b-47c4-a343-00628a1a7a8c"
           ],
           "x": 1100.778,
-          "y": 1007.8057,
+          "y": 997.5557,
           "direction": "left"
         },
         "constraintName": "fk_cars_to_selected options",
@@ -526,7 +503,7 @@
             "e75989a4-b581-4841-8fd6-caae78c36648"
           ],
           "x": 1294.890548828125,
-          "y": 1073.0557,
+          "y": 1052.5557,
           "direction": "bottom"
         },
         "constraintName": "fk_car_option_to_selected options",
