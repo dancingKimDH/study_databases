@@ -1,0 +1,538 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -478,
+    "scrollLeft": -706,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "CARSV2",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "CARS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "CAR_ID",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "f33f83f3-3f5b-4502-8150-4fdea1011aa2"
+          },
+          {
+            "name": "COMPANY_CODE",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 111.55419921875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "c4f20eb3-c6d8-4a8f-a543-dc1d13d70b99"
+          },
+          {
+            "name": "BRAND_CODE",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 92.29541015625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "0fe5896d-d8a5-4726-bbce-6cf4febfa405"
+          },
+          {
+            "name": "RELEASE_YEAR",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 104.603515625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "03a7ebf1-428a-4728-a539-b820e8e846d3"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 773.75,
+          "top": 693.75,
+          "zIndex": 83,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "572279be-806e-4d89-bc76-3ff683401fd7"
+      },
+      {
+        "name": "CAR_COMPANY",
+        "comment": "",
+        "columns": [
+          {
+            "name": "COMPANY_NAME",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.55419921875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "338b9aa1-4a9e-4b82-a8e5-5bc33a04247a"
+          },
+          {
+            "name": "COMPANY_CODE",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.55419921875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a7d4d8f1-42c5-458b-8e68-f36845d56dd1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 525.5834,
+          "top": 405.25,
+          "zIndex": 72,
+          "widthName": 101.4423828125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "bd42bed5-482c-4c56-87ee-fc5e63a53576"
+      },
+      {
+        "name": "CAR_BRAND",
+        "comment": "",
+        "columns": [
+          {
+            "name": "BRAND_NAME",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 92.29541015625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "3e3484b3-b4b5-4e31-be35-114de0f6b249"
+          },
+          {
+            "name": "BRAND_CODE",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 92.29541015625,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "7c179e9d-26b9-45ae-99b4-65a27091ce39"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 216.25,
+          "top": 1018.75,
+          "zIndex": 66,
+          "widthName": 82.18359375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "2504c583-d5dc-45f3-8dda-22b4f76b7955"
+      },
+      {
+        "name": "CAR_OPTION",
+        "comment": "",
+        "columns": [
+          {
+            "name": "OPTION_TYPE",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 93.01904296875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "a08adc2c-fba2-4828-a971-8ac50cfdf9a0"
+          },
+          {
+            "name": "OPTION_CODE",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 96.62451171875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "84297189-5bf0-4d9c-9636-faa9ce6220c2"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1088.3057,
+          "top": 1207.4444,
+          "zIndex": 81,
+          "widthName": 86.5126953125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "2ccebfa1-6769-4046-8ccd-25b9e085673c"
+      },
+      {
+        "name": "SELECTED OPTIONS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "1558278b-70dc-458b-b541-97232b560018"
+          },
+          {
+            "name": "CAR_ID",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "8565e914-ff1b-47c4-a343-00628a1a7a8c"
+          },
+          {
+            "name": "OPTION_CODE",
+            "comment": "",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 96.62451171875,
+              "widthComment": 60,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "e75989a4-b581-4841-8fd6-caae78c36648"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1100.778,
+          "top": 942.5557,
+          "zIndex": 82,
+          "widthName": 132.7490234375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "f58d0e9f-b4d3-4bf5-bb4b-3d5fab06296f"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "bd42bed5-482c-4c56-87ee-fc5e63a53576",
+          "columnIds": [
+            "a7d4d8f1-42c5-458b-8e68-f36845d56dd1"
+          ],
+          "x": 928.73818515625,
+          "y": 460.25,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "572279be-806e-4d89-bc76-3ff683401fd7",
+          "columnIds": [
+            "c4f20eb3-c6d8-4a8f-a543-dc1d13d70b99"
+          ],
+          "x": 975.327392578125,
+          "y": 693.75,
+          "direction": "top"
+        },
+        "constraintName": "fk_car_company_to_cars",
+        "visible": true,
+        "id": "26312e27-cc03-4531-b19e-c630b2d71b46"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "2504c583-d5dc-45f3-8dda-22b4f76b7955",
+          "columnIds": [
+            "7c179e9d-26b9-45ae-99b4-65a27091ce39"
+          ],
+          "x": 600.14599609375,
+          "y": 1073.75,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "572279be-806e-4d89-bc76-3ff683401fd7",
+          "columnIds": [
+            "0fe5896d-d8a5-4726-bbce-6cf4febfa405"
+          ],
+          "x": 773.75,
+          "y": 769.25,
+          "direction": "left"
+        },
+        "constraintName": "fk_car_brand_to_cars",
+        "visible": true,
+        "id": "6b20fa1a-ffe4-4555-ba14-99bb4e4e3ee3"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "572279be-806e-4d89-bc76-3ff683401fd7",
+          "columnIds": [
+            "f33f83f3-3f5b-4502-8150-4fdea1011aa2"
+          ],
+          "x": 975.327392578125,
+          "y": 844.75,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "f58d0e9f-b4d3-4bf5-bb4b-3d5fab06296f",
+          "columnIds": [
+            "8565e914-ff1b-47c4-a343-00628a1a7a8c"
+          ],
+          "x": 1100.778,
+          "y": 1007.8057,
+          "direction": "left"
+        },
+        "constraintName": "fk_cars_to_selected options",
+        "visible": true,
+        "id": "c99583cb-b72e-429f-a887-b74763d25dd3"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "2ccebfa1-6769-4046-8ccd-25b9e085673c",
+          "columnIds": [
+            "84297189-5bf0-4d9c-9636-faa9ce6220c2"
+          ],
+          "x": 1282.418248828125,
+          "y": 1207.4444,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "f58d0e9f-b4d3-4bf5-bb4b-3d5fab06296f",
+          "columnIds": [
+            "e75989a4-b581-4841-8fd6-caae78c36648"
+          ],
+          "x": 1294.890548828125,
+          "y": 1073.0557,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_car_option_to_selected options",
+        "visible": true,
+        "id": "c2b9a1b9-c88a-4830-a53d-3a0a13aa9e04"
+      }
+    ]
+  }
+}
