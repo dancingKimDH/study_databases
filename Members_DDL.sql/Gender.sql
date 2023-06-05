@@ -1,0 +1,4 @@
+INSERT INTO gender 
+(GENDER_TITLE, GENDER_CODE_ID)
+VALUES 
+('남', 'G-01'), ('여', 'G-04');
