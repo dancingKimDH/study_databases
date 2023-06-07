@@ -1,0 +1,8 @@
+DELETE FROM members_hobby
+WHERE MEMBERS_ID LIKE 'M%';
+
+DELETE FROM membewrs_login
+WHERE MEMBERS_ID LIKE 'M%';
+
+DELETE FROM members
+WHERE MEMBERS_ID LIKE 'M%';
