@@ -65,8 +65,8 @@ VALUES
 ('M-05', 'H-09');
 
 -- membewrs_login 로그인 코드
-INSERT INTO membewrs_login
-(EMAIL,MEMBERS_ID, MEMBEWRS_LOGIN_ID)
+INSERT INTO members_login
+(EMAIL,MEMBERS_ID,MEMBERS_LOGIN_ID)
 VALUES
 ('hong@gmail.com', 'M-01', 'L-01'),
 ('park.younghee@naver.com', 'M-02', 'L-02'),
