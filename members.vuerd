@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -440.5,
-    "scrollLeft": -287,
+    "scrollTop": -655.5,
+    "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -189,7 +189,7 @@
           "active": false,
           "left": 335.1624,
           "top": 796.5898,
-          "zIndex": 43,
+          "zIndex": 5,
           "widthName": 97.341796875,
           "widthComment": 60,
           "color": "#FFEB3B"
@@ -252,7 +252,7 @@
           "active": false,
           "left": 923.1163,
           "top": 688.6588,
-          "zIndex": 24,
+          "zIndex": 2,
           "widthName": 111.8017578125,
           "widthComment": 60
         },
@@ -335,9 +335,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 66.0873,
-          "top": 489.4074,
-          "zIndex": 29,
+          "left": 11.6429,
+          "top": 577.1852,
+          "zIndex": 6,
           "widthName": 105.3017578125,
           "widthComment": 60
         },
@@ -399,7 +399,7 @@
           "active": false,
           "left": 1460.2813,
           "top": 482.2231,
-          "zIndex": 8,
+          "zIndex": 1,
           "widthName": 92.3017578125,
           "widthComment": 60,
           "color": "#FFEB3B"
@@ -462,7 +462,7 @@
           "active": false,
           "left": 46.0312,
           "top": 1215.9601,
-          "zIndex": 39,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60
         },
@@ -524,7 +524,7 @@
           "active": false,
           "left": 918.2349,
           "top": 1063.5721,
-          "zIndex": 37,
+          "zIndex": 3,
           "widthName": 64.84814453125,
           "widthComment": 60
         },
@@ -583,8 +583,8 @@
           "columnIds": [
             "b73cf635-2163-4c7d-b880-cba0d4f37682"
           ],
-          "x": 516.9496046875,
-          "y": 554.6574,
+          "x": 462.5052046875,
+          "y": 642.4352,
           "direction": "right"
         },
         "constraintName": "fk_member_info_to_member_email",
