@@ -1,0 +1,4 @@
+SELECT COUNT(CategoryID) AS CNT_ID, CategoryID AS P_ID
+FROM Products AS P
+GROUP BY CategoryID
+HAVING COUNT(CategoryID) >= 10
